@@ -1,0 +1,19 @@
+.trending-products {
+  margin-top: 2rem;
+}
+
+.trending-heading {
+  text-align: center;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.best-selling {
+  margin-top: 2rem;
+}
+
+.best-heading {
+  text-align: center;
+  font-weight: 400;
+  color: var(--primary-color);
+}

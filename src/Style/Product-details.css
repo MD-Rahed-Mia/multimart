@@ -1,0 +1,52 @@
+.product-details {
+  width: 80%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-details-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-details-left img {
+  width: 90%;
+
+}
+
+.product-desc {
+  line-height: 30px;
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.stars {
+  font-size: 20px;
+}
+
+.check {
+  color: orange;
+}
+
+.half {
+  color: rgb(234, 173, 60);
+}
+
+.price {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.add-to-cart {
+  padding: 10px 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  background: #3a2efe;
+  color: white;
+  border: none;
+}

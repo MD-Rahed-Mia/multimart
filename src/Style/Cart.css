@@ -1,0 +1,32 @@
+
+.cart-container {
+  width: 60%;
+  margin: 2rem auto;
+}
+.cart-heading {
+  text-align: center;
+}
+
+.cart-table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+.cart-table th, tr, td {
+  border: 2px solid gray;
+  height: 50px;
+  text-align: center;
+}
+
+.product-quantity {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.product-quantity button {
+  background: none;
+  font-size: 30px;
+  width: 40px;
+  border: none;
+}

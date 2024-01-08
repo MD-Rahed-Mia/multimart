@@ -1,0 +1,54 @@
+span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header {
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.user-profile {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgb(199, 187, 187);
+  object-fit: scale-down;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.nav-active {
+  font-weight: bold;
+}
