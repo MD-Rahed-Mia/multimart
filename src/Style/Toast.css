@@ -1,0 +1,18 @@
+.toast {
+  width: 150px;
+  min-height: 60px;
+  background: gray;
+  position: absolute;
+  top: 5rem;
+  right: -12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #3a2efe;
+  transition: all 500ms;
+}
+
+.toast.active {
+  right: 3rem;
+}

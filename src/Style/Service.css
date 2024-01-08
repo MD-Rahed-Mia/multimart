@@ -1,0 +1,32 @@
+.service-item {
+  padding: 10px 12px;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+  background: #e8e8fa;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.service-item img {
+  width: 50px;
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 10px;
+}
+
+.service-item p {
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+.service-section {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
